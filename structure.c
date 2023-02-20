@@ -5,9 +5,9 @@ struct student
   int section;
   float percentage;
   int mobno; 
-};
+}S[5];
 int main(){
-  struct student S[5];
+  // struct student S[5];
   int i;
   for(i=0;i<5;i++){
   scanf("%d",&S[i].rollno);

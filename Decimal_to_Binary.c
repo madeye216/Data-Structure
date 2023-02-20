@@ -1,7 +1,9 @@
 #include<stdio.h>
 #include"stack.h"
-int main(){
+int main()
+{
 	int i,x,b,a;
+	printf("Enter a number:");
 	scanf("%d",&x);
 Initalize();
 while(x!=0){
